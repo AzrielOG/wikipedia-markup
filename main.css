@@ -1,23 +1,35 @@
 ul {
-  background-color: aqua;
+  background-color: darkolivegreen;
 }
 h1 { 
-  padding: 8px;
-  background-color: aqua;
-  border-bottom: 2px solid black;
+  padding: center;
+  background-color: darkolivegreen;
+  border-bottom:2px solid wheat;
+  text-align: center;
+  font-weight: lighter;
 } 
 
 .unordered-list {
-  font-size: 40px;
+  font-size:40px;
 }
 
 #heading {
-  font-size: 50px;
+  font-size:50px;
+  text-align: center;
 }
 
 body {
-  margin: 50px 20px 10px 150px;
-  text-align: justify;
+  margin:auto;
+  text-align: left;
   font-size: 20px;
+  padding: 90px;
+  max-width: 1080px;
 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
